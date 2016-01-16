@@ -1,0 +1,14 @@
+{
+  "name": "codeshift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform": "jscodeshift --babel --transform ./transforms/attr_to_attributes/index.js"
+  },
+  "author": "Cameron Hunter",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^0.3.12"
+  }
+}
