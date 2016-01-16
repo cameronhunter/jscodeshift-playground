@@ -1,8 +1,7 @@
 {
   "name": "codeshift-playground",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Me playing around with jscodeshift transforms",
   "scripts": {
     "start": "jscodeshift --babel --transform ./transforms/attr_to_attributes/index.js"
   },
